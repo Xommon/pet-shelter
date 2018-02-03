@@ -4,16 +4,8 @@ import org.junit.Test;
 public class VirtualPetShelterTest {
 	private VirtualPetShelter underTest;
 	private VirtualPet pet;
-	private static final String petName = "";
-	private static final String petDescription = "";
-	
-	
-	@Before
-	public void setup() {
-		// With the @Before, the arrange part of the test automatically goes into every test
-		underTest = new VirtualPetShelter();
-		pet = new VirtualPet(petName, petDescription;)
-	}
+	private static final String petName = "NAME";
+	private static final String petDescription = "DESCRIPTION";
 	
 	@Test
 	public void shouldAddPet() {
